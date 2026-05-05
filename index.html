@@ -4,14 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Indexing Meta Tags -->
     <title>L'Agent IA Anti-Chômage | Postulez en Automatique Pendant Que Vous Dormez</title>
-    <meta name="description"
-        content="Système automatisé Make.com + Notion + ChatGPT qui postule aux offres d'emploi, trouve les emails des recruteurs et envoie des candidatures sur-mesure. Pendant que vous dormez.">
+    <meta name="description" content="Système automatisé Make.com + Notion + ChatGPT qui postule aux offres d'emploi, trouve les emails des recruteurs et envoie des candidatures sur-mesure. Pendant que vous dormez.">
+    <meta name="keywords" content="recherche d'emploi, automatisation, IA, ChatGPT, Make.com, Notion, trouver un travail, CV, recrutement">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="L'Agent IA Anti-Chômage">
+    <link rel="canonical" href="https://votre-site.com/">
+    
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://votre-site.com/">
+    <meta property="og:title" content="L'Agent IA Anti-Chômage | Postulez en Automatique">
+    <meta property="og:description" content="Automatisez votre recherche d'emploi. L'IA postule, trouve les vrais emails et envoie des candidatures sur-mesure pendant que vous dormez.">
+    <meta property="og:image" content="https://votre-site.com/assets/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://votre-site.com/">
+    <meta property="twitter:title" content="L'Agent IA Anti-Chômage | Postulez en Automatique">
+    <meta property="twitter:description" content="Automatisez votre recherche d'emploi. L'IA postule, trouve les vrais emails et envoie des candidatures sur-mesure pendant que vous dormez.">
+    <meta property="twitter:image" content="https://votre-site.com/assets/og-image.jpg">
+    
+    <!-- Performance: Resource Hints -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Asynchronous FontAwesome Loading -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
     <script>
         tailwind.config = {
             theme: {
@@ -340,170 +370,124 @@
     </section>
 
     <!-- ==================== PROBLÈME / AGITATION ==================== -->
-    <section id="probleme"
-        class="py-20 md:py-28 relative bg-dark-900 border-y border-red-500/10 shadow-[inset_0_0_100px_rgba(0,0,0,0.5)]">
-        <!-- Dark moody background glow -->
-        <div class="absolute inset-0 overflow-hidden pointer-events-none">
-            <div
-                class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-red-600 rounded-full blur-[120px] opacity-10">
-            </div>
+    <section id="probleme" class="py-20 md:py-28 relative bg-slate-50 border-y border-gray-100 overflow-hidden">
+        <!-- Decoration -->
+        <div class="absolute inset-0 pointer-events-none">
+            <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-red-100/50 rounded-full blur-[120px] opacity-60"></div>
+            <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-orange-100/50 rounded-full blur-[120px] opacity-60"></div>
         </div>
 
-        <div class="max-w-5xl mx-auto px-6 relative z-10">
-            <div class="text-center mb-14 fade-in">
-                <span
-                    class="text-sm font-bold text-red-500 uppercase tracking-widest flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-triangle-exclamation"></i> Le vrai problème
-                </span>
-                <h2 class="text-3xl md:text-4xl font-extrabold mt-4 mb-5 text-white">
-                    Le "Easy Apply" de LinkedIn ? <br class="hidden md:block">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-400">C'est une
-                        arnaque silencieuse.</span>
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16 fade-in">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-50 border border-red-100 text-red-600 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
+                    </span>
+                    Le Vrai Problème
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-dark-900 tracking-tight">
+                    Le "Easy Apply" de LinkedIn ?<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">C'est une illusion.</span>
                 </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto text-lg">
-                    Vous n'êtes pas le problème. Le système est cassé. Voici pourquoi vos candidatures tombent dans le
-                    vide.
+                <p class="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
+                    Vous n'êtes pas le problème. Le système est conçu pour vous faire échouer. Voici pourquoi vos candidatures tombent dans le vide intersidéral.
                 </p>
             </div>
 
-            <div class="grid lg:grid-cols-3 gap-6 relative">
-                <!-- Card 1 -->
-                <div
-                    class="relative p-px rounded-3xl bg-gradient-to-b from-red-500/40 to-white/5 card-hover fade-in group transition-all duration-500 hover:shadow-[0_0_40px_rgba(239,68,68,0.2)] hover:-translate-y-2">
-                    <div
-                        class="absolute inset-0 bg-red-500/10 blur-xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <!-- Modern Bento Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto fade-in">
+                <!-- Large Card (Span 2 cols on Desktop) -->
+                <div class="md:col-span-2 bg-white rounded-[2rem] p-8 md:p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 relative overflow-hidden group hover:shadow-xl transition-shadow duration-300">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-red-50 rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                    <div class="w-14 h-14 rounded-2xl bg-red-50 flex items-center justify-center mb-6 border border-red-100">
+                        <i class="fa-solid fa-users-slash text-2xl text-red-500"></i>
                     </div>
-                    <div class="bg-[#0b1121] rounded-[23px] p-8 h-full relative overflow-hidden flex flex-col z-10">
-                        <div
-                            class="absolute -right-4 -bottom-8 text-9xl font-black text-white/[0.02] select-none pointer-events-none group-hover:text-red-500/[0.05] transition-colors duration-500">
-                            01</div>
-                        <div
-                            class="absolute -top-10 -right-10 w-40 h-40 bg-red-500/20 rounded-full blur-[50px] pointer-events-none group-hover:bg-red-500/30 transition-colors duration-500">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 text-dark-900">+500 Candidats par Offre</h3>
+                    <p class="text-gray-500 text-lg leading-relaxed mb-8 max-w-lg">
+                        Quand vous cliquez sur "Easy Apply", votre CV rejoint une pile infinie. Statistiquement, le recruteur ne verra <strong class="text-dark-900">jamais</strong> votre profil.
+                    </p>
+                    
+                    <!-- Visual Mockup Element -->
+                    <div class="mt-auto bg-gray-50 rounded-xl p-4 border border-gray-100 flex items-center gap-4 w-fit">
+                        <div class="flex -space-x-4">
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-300"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-400"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-red-100 flex items-center justify-center text-xs font-bold text-red-600">+497</div>
                         </div>
+                        <div class="text-sm font-medium text-gray-600">En attente d'examen...</div>
+                    </div>
+                </div>
 
-                        <div
-                            class="w-14 h-14 rounded-2xl bg-black/50 backdrop-blur-sm flex items-center justify-center mb-6 border border-white/10 group-hover:border-red-500/50 transition-colors">
-                            <i
-                                class="fa-solid fa-users-slash text-2xl text-gray-400 group-hover:text-red-400 transition-colors"></i>
+                <!-- Small Card 1 -->
+                <div class="bg-white rounded-[2rem] p-8 md:p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 relative overflow-hidden group hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="w-12 h-12 rounded-2xl bg-orange-50 flex items-center justify-center mb-6 border border-orange-100">
+                        <i class="fa-solid fa-robot text-xl text-orange-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-dark-900">Filtre ATS</h3>
+                    <p class="text-gray-500 leading-relaxed mb-6 flex-grow">
+                        Les robots rejettent 75% des CV pour un simple mot-clé manquant avant l'intervention humaine.
+                    </p>
+                    <div class="bg-orange-50 text-orange-600 text-xs font-bold px-3 py-2 rounded-lg inline-flex items-center gap-2 w-fit mt-auto">
+                        <i class="fa-solid fa-ban"></i> Rejet Automatique
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Spans 3 cols on mobile, 3 on desktop -> full width) -->
+                <div class="md:col-span-3 bg-dark-900 rounded-[2rem] p-8 md:p-10 shadow-2xl relative overflow-hidden group flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
+                    <div class="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-brand-600/20 opacity-50 mix-blend-overlay"></div>
+                    <div class="absolute -top-24 -right-24 w-64 h-64 bg-purple-500/30 rounded-full blur-[80px]"></div>
+                    
+                    <div class="flex-1 relative z-10 text-center md:text-left">
+                        <div class="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center mb-6 border border-white/20 mx-auto md:mx-0">
+                            <i class="fa-solid fa-hourglass-end text-2xl text-purple-400"></i>
                         </div>
-                        <h3 class="font-bold text-xl mb-3 text-white group-hover:text-red-100 transition-colors">+500
-                            candidats par offre</h3>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow relative z-10">
-                            Quand vous cliquez sur "Easy Apply", votre CV rejoint une pile de 500+ candidatures. Le
-                            recruteur ne verra <strong class="text-white">jamais</strong> la vôtre.
+                        <h3 class="text-2xl md:text-3xl font-bold mb-4 text-white">Des Heures Perdues</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed max-w-2xl">
+                            Personnaliser les lettres, remplir des formulaires interminables... Vous passez <strong class="text-white">3 à 5 heures par jour</strong> dans le vent pour un ROI nul.
                         </p>
+                    </div>
 
-                        <div
-                            class="bg-black/60 p-3.5 rounded-xl border border-white/10 flex items-center justify-between mt-auto relative z-10 backdrop-blur-md">
-                            <span class="text-xs uppercase tracking-wider text-gray-500 font-medium">Diagnostic</span>
-                            <div
-                                class="flex items-center gap-2 text-xs font-mono text-red-400 font-bold bg-red-500/10 px-2.5 py-1.5 rounded-md border border-red-500/20">
-                                <span
-                                    class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse shadow-[0_0_5px_rgba(239,68,68,0.8)]"></span>
-                                Visibilité 0.2%
+                    <div class="relative z-10 flex justify-center shrink-0">
+                        <div class="relative w-32 h-32 md:w-40 md:h-40">
+                            <!-- Circular Progress Animation -->
+                            <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"></circle>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#a855f7" stroke-width="8" stroke-dasharray="283" stroke-dashoffset="283" class="animate-[dash_3s_ease-out_forwards]"></circle>
+                            </svg>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+                                <span class="text-3xl font-black">0%</span>
+                                <span class="text-[10px] text-gray-400 uppercase tracking-wider mt-1">de réponse</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="relative p-px rounded-3xl bg-gradient-to-b from-orange-500/40 to-white/5 card-hover fade-in group transition-all duration-500 hover:shadow-[0_0_40px_rgba(249,115,22,0.2)] hover:-translate-y-2"
-                    style="transition-delay: 100ms;">
-                    <div
-                        class="absolute inset-0 bg-orange-500/10 blur-xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    </div>
-                    <div class="bg-[#0b1121] rounded-[23px] p-8 h-full relative overflow-hidden flex flex-col z-10">
-                        <div
-                            class="absolute -right-4 -bottom-8 text-9xl font-black text-white/[0.02] select-none pointer-events-none group-hover:text-orange-500/[0.05] transition-colors duration-500">
-                            02</div>
-                        <div
-                            class="absolute -top-10 -right-10 w-40 h-40 bg-orange-500/20 rounded-full blur-[50px] pointer-events-none group-hover:bg-orange-500/30 transition-colors duration-500">
-                        </div>
-
-                        <div
-                            class="w-14 h-14 rounded-2xl bg-black/50 backdrop-blur-sm flex items-center justify-center mb-6 border border-white/10 group-hover:border-orange-500/50 transition-colors">
-                            <i
-                                class="fa-solid fa-robot text-2xl text-gray-400 group-hover:text-orange-400 transition-colors"></i>
-                        </div>
-                        <h3 class="font-bold text-xl mb-3 text-white group-hover:text-orange-100 transition-colors">Les
-                            ATS filtrent 75% des CV</h3>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow relative z-10">
-                            Les logiciels robots (ATS) rejettent votre profil pour un simple mot-clé manquant avant même
-                            qu'un humain ne le voie.
-                        </p>
-
-                        <div
-                            class="bg-black/60 p-3.5 rounded-xl border border-white/10 flex items-center justify-between mt-auto relative z-10 backdrop-blur-md">
-                            <span class="text-xs uppercase tracking-wider text-gray-500 font-medium">Diagnostic</span>
-                            <div
-                                class="flex items-center gap-2 text-xs font-mono text-orange-400 font-bold bg-orange-500/10 px-2.5 py-1.5 rounded-md border border-orange-500/20">
-                                <span
-                                    class="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse shadow-[0_0_5px_rgba(249,115,22,0.8)]"></span>
-                                Blocage Algo
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="relative p-px rounded-3xl bg-gradient-to-b from-purple-500/40 to-white/5 card-hover fade-in group transition-all duration-500 hover:shadow-[0_0_40px_rgba(168,85,247,0.2)] hover:-translate-y-2"
-                    style="transition-delay: 200ms;">
-                    <div
-                        class="absolute inset-0 bg-purple-500/10 blur-xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    </div>
-                    <div class="bg-[#0b1121] rounded-[23px] p-8 h-full relative overflow-hidden flex flex-col z-10">
-                        <div
-                            class="absolute -right-4 -bottom-8 text-9xl font-black text-white/[0.02] select-none pointer-events-none group-hover:text-purple-500/[0.05] transition-colors duration-500">
-                            03</div>
-                        <div
-                            class="absolute -top-10 -right-10 w-40 h-40 bg-purple-500/20 rounded-full blur-[50px] pointer-events-none group-hover:bg-purple-500/30 transition-colors duration-500">
-                        </div>
-
-                        <div
-                            class="w-14 h-14 rounded-2xl bg-black/50 backdrop-blur-sm flex items-center justify-center mb-6 border border-white/10 group-hover:border-purple-500/50 transition-colors">
-                            <i
-                                class="fa-solid fa-hourglass-end text-2xl text-gray-400 group-hover:text-purple-400 transition-colors"></i>
-                        </div>
-                        <h3 class="font-bold text-xl mb-3 text-white group-hover:text-purple-100 transition-colors">Des
-                            heures perdues</h3>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow relative z-10">
-                            Copier-coller, personnaliser la lettre, remplir les formulaires... Vous passez <strong
-                                class="text-white">3 à 5 heures par jour</strong> dans le vent.
-                        </p>
-
-                        <div
-                            class="bg-black/60 p-3.5 rounded-xl border border-white/10 flex items-center justify-between mt-auto relative z-10 backdrop-blur-md">
-                            <span class="text-xs uppercase tracking-wider text-gray-500 font-medium">Diagnostic</span>
-                            <div
-                                class="flex items-center gap-2 text-xs font-mono text-purple-400 font-bold bg-purple-500/10 px-2.5 py-1.5 rounded-md border border-purple-500/20">
-                                <span
-                                    class="w-1.5 h-1.5 rounded-full bg-purple-500 animate-pulse shadow-[0_0_5px_rgba(168,85,247,0.8)]"></span>
-                                ROI Zéro
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="text-center mt-12 fade-in bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 backdrop-blur-sm max-w-3xl mx-auto shadow-lg relative overflow-hidden">
-                <div class="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-brand-400 to-emerald-400"></div>
-                <p class="text-lg text-gray-300">
-                    La vérité ? Les candidats qui décrochent des entretiens ne passent pas par la porte d'entrée.
-                    <strong class="text-white block mt-2 text-xl">Ils contactent directement le recruteur, dans sa boîte
-                        mail personnelle.</strong>
-                </p>
             </div>
         </div>
+        <style>
+            @keyframes dash {
+                to {
+                    stroke-dashoffset: 0;
+                }
+            }
+        </style>
     </section>
 
     <!-- ==================== LA SOLUTION (WORKFLOW) ==================== -->
     <section id="workflow" class="py-20 md:py-28 relative">
         <div class="max-w-5xl mx-auto px-6">
             <div class="text-center mb-16 fade-in">
-                <span class="text-sm font-semibold text-brand-600 uppercase tracking-widest">Le Système Secret</span>
-                <h2 class="text-3xl md:text-4xl font-extrabold mt-3 mb-5">
-                    L'IA travaille <span class="text-brand-600">Pendant Que Vous Dormez</span>
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-500"></span>
+                    </span>
+                    Le Système Secret
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-dark-900 tracking-tight">
+                    L'IA travaille <br class="hidden md:block">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-emerald-500">Pendant Que Vous Dormez</span>
                 </h2>
                 <p class="text-gray-500 max-w-2xl mx-auto text-lg">
                     Voici exactement comment l'Agent Anti-Chômage contourne les filtres et dépose votre profil
@@ -634,9 +618,16 @@
 
         <div class="max-w-6xl mx-auto px-6 relative z-10">
             <div class="text-center mb-14 fade-in">
-                <span class="text-sm font-semibold text-brand-600 uppercase tracking-widest">Vos Livrables</span>
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mt-3 mb-5 text-dark-900 leading-tight">
-                    Ce que vous recevez <span class="text-brand-600">Aujourd'hui 🎁</span>
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-500"></span>
+                    </span>
+                    Vos Livrables
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-dark-900 tracking-tight leading-tight">
+                    Ce que vous recevez <br class="hidden md:block">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-emerald-500">Aujourd'hui 🎁</span>
                 </h2>
                 <p class="text-gray-600 max-w-2xl mx-auto text-lg">
                     Pas de théorie inutile. Un système "Plug & Play" que vous pouvez lancer dans 30 minutes.
@@ -652,9 +643,9 @@
                     </div>
                     <div class="p-8 md:p-10 z-10 relative flex-grow">
                         <div class="flex items-center gap-6 mb-8">
-                            <img src="assets/make.png" alt="Make.com"
+                            <img src="assets/make.png" alt="Make.com" loading="lazy" decoding="async"
                                 class="h-12 w-auto object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
-                            <img src="assets/openai.png" alt="OpenAI"
+                            <img src="assets/openai.png" alt="OpenAI" loading="lazy" decoding="async"
                                 class="h-12 w-auto object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-500 delay-75">
                         </div>
                         <h3 class="text-2xl font-bold mb-3 text-dark-900">Le Moteur d'Automatisation Prêt-à-l'Emploi
@@ -700,8 +691,8 @@
                         <div
                             class="absolute inset-0 pt-8 bg-gradient-to-br from-brand-50 to-indigo-50/50 flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-700 origin-top">
                             <!-- Make Blueprint Screenshot -->
-                            <img src="assets/workflow.png"
-                                class="w-full h-full object-cover object-top" alt="Make Blueprint">
+                            <img src="assets/workflow.png" loading="lazy" decoding="async"
+                                class="w-full h-full object-cover object-top blur-[3px]" alt="Make Blueprint">
                         </div>
                     </div>
                 </div>
@@ -714,8 +705,8 @@
                     </div>
                     <div class="p-8 z-10 relative flex-grow">
                         <div class="mb-8">
-                            <img src="assets/notion.png" alt="Notion"
-                                class="h-16 w-auto object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
+                            <img src="assets/sheets.png" alt="Google Sheets" loading="lazy" decoding="async"
+                                class="h-14 w-auto object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <h3 class="text-xl font-bold mb-3 text-dark-900">Le Dashboard Notion</h3>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed">Votre quartier général. Le template
@@ -750,7 +741,7 @@
                         <div
                             class="absolute inset-0 pt-8 bg-gradient-to-br from-emerald-50 to-gray-50 flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-700 origin-top">
                             <!-- Notion Dashboard Screenshot -->
-                            <img src="assets/sheet.png"
+                            <img src="assets/sheet.png" loading="lazy" decoding="async"
                                 class="w-full h-full object-cover object-top" alt="Notion Dashboard">
                         </div>
                     </div>
@@ -758,21 +749,17 @@
 
                 <!-- Deliverable 3 -->
                 <div
-                    class="bg-white/60 backdrop-blur-3xl p-1.5 rounded-3xl shadow-[0_8px_40px_-12px_rgba(0,0,0,0.1)] border border-white fade-in relative overflow-hidden group hover:-translate-y-1 hover:shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] transition-all duration-500 lg:col-span-3 md:col-span-2 flex flex-col lg:flex-row items-stretch">
+                    class="bg-white/60 backdrop-blur-3xl p-1.5 rounded-3xl shadow-[0_8px_40px_-12px_rgba(0,0,0,0.1)] border border-white fade-in relative overflow-hidden group hover:-translate-y-1 hover:shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] transition-all duration-500 lg:col-span-3 md:col-span-2 flex flex-col items-stretch">
                     <div
                         class="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-amber-500 to-amber-400 opacity-90 z-20">
                     </div>
 
-                    <div class="lg:w-1/2 p-8 md:p-10 z-10 relative flex flex-col justify-center">
-                        <div class="mb-6">
-                            <img src="assets/loom.png" alt="Loom"
-                                class="h-10 w-auto object-contain drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
-                        </div>
+                    <div class="p-8 md:p-10 z-10 relative flex flex-col justify-center">
                         <h3 class="text-2xl font-bold mb-3 text-dark-900">La Masterclass de Setup</h3>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed">Une vidéo pas-à-pas où je configure le
                             système avec vous, de A à Z. Même si vous n'avez jamais touché à une ligne de code.</p>
 
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                             <div class="flex items-center gap-3">
                                 <div
                                     class="bg-emerald-100 w-6 h-6 rounded-full flex items-center justify-center shrink-0">
@@ -785,32 +772,13 @@
                                     <i class="fa-solid fa-check text-emerald-600 text-xs"></i></div> <span
                                     class="text-sm text-gray-700 font-medium">Zéro compétence technique</span>
                             </div>
-                            <div class="flex items-center gap-3 sm:col-span-2">
+                            <div class="flex items-center gap-3">
                                 <div
                                     class="bg-emerald-100 w-6 h-6 rounded-full flex items-center justify-center shrink-0">
                                     <i class="fa-solid fa-check text-emerald-600 text-xs"></i></div> <span
                                     class="text-sm text-gray-700 font-medium">Support technique prioritaire
                                     inclus</span>
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Video Screenshot Mockup -->
-                    <div
-                        class="lg:w-1/2 relative bg-gray-100/50 rounded-b-[1.3rem] lg:rounded-b-none lg:rounded-r-[1.3rem] overflow-hidden border-t lg:border-t-0 lg:border-l border-white/80 shadow-inner min-h-[250px]">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-br from-amber-50 to-gray-100/50 flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-700">
-                            <!-- Play Button Overlay -->
-                            <div
-                                class="absolute inset-0 bg-black/10 z-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div
-                                    class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-2xl backdrop-blur-sm transform hover:scale-110 transition-transform cursor-pointer">
-                                    <i class="fa-solid fa-play text-2xl text-amber-500 ml-1"></i>
-                                </div>
-                            </div>
-                            <!-- Masterclass Screenshot -->
-                            <img src="assets/masterclass_mac_1777060782286.png"
-                                class="w-full h-full object-cover object-center z-10" alt="Masterclass Setup">
                         </div>
                     </div>
                 </div>
@@ -836,9 +804,16 @@
 
         <div class="max-w-4xl mx-auto px-6 relative z-10">
             <div class="text-center mb-12 fade-in">
-                <span class="text-sm font-semibold text-brand-400 uppercase tracking-widest">Tarif</span>
-                <h2 class="text-3xl md:text-4xl font-extrabold mt-3 mb-5 text-white">
-                    Commencez à décrocher des entretiens <span class="text-[#00B67A]">dès demain.</span>
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-500"></span>
+                    </span>
+                    Tarif
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight">
+                    Commencez à décrocher des entretiens <br class="hidden md:block">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00B67A] to-brand-400">dès demain.</span>
                 </h2>
             </div>
 
@@ -955,7 +930,7 @@
                             <!-- Trustpilot -->
                             <div
                                 class="flex items-center gap-3 bg-white/5 border border-white/10 px-4 py-3 rounded-xl backdrop-blur-sm shadow-lg hover:bg-white/10 transition-colors">
-                                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/logo-white.svg" alt="Trustpilot"
+                                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/logo-white.svg" alt="Trustpilot" loading="lazy" decoding="async"
                                     class="h-6 object-contain">
                                 <div class="flex gap-0.5 text-[#00b67a] text-sm">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1049,6 +1024,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="flex justify-center mb-3">
+                                    <div class="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1.5 rounded-full text-xs font-semibold text-emerald-400">
+                                        <i class="fa-solid fa-users"></i> Déjà +150 utilisateurs
+                                    </div>
+                                </div>
                                 <div class="text-gray-400 line-through text-lg mb-1 font-medium">Valeur réelle : 999 DH
                                 </div>
                                 <div class="flex justify-center items-baseline gap-2 mb-4">
@@ -1076,6 +1056,21 @@
                                     <i class="fa-solid fa-credit-card text-2xl"></i>
                                     Payer 100 DH en ligne
                                 </a>
+
+                                <div class="mt-6 border-t border-white/10 pt-6">
+                                    <h4 class="text-white font-semibold mb-3 flex items-center justify-center gap-2 text-sm">
+                                        <i class="fa-solid fa-building-columns text-gray-400"></i> Alternative : Virement Bancaire
+                                    </h4>
+                                    <p class="text-gray-400 text-xs mb-4 leading-relaxed px-2">
+                                        Impossible de payer par carte ? Contactez-nous sur WhatsApp pour payer via CIH, Attijari ou BMCE.
+                                    </p>
+                                    <a href="https://wa.me/212666065608?text=Bonjour,%20je%20souhaite%20payer%20l'Agent%20IA%20par%20virement%20bancaire." 
+                                        target="_blank"
+                                        class="w-full bg-[#25D366]/10 border border-[#25D366]/30 hover:bg-[#25D366]/20 text-[#25D366] font-bold text-sm px-6 py-3.5 rounded-xl transition-all flex items-center justify-center gap-2 group">
+                                        <i class="fa-brands fa-whatsapp text-xl group-hover:scale-110 transition-transform"></i>
+                                        Demander le RIB
+                                    </a>
+                                </div>
                             </div>
 
                             <div
@@ -1092,9 +1087,16 @@
         <!-- Comparison Table -->
         <div class="max-w-5xl mx-auto px-6 mt-24 relative z-10">
             <div class="text-center mb-12 fade-in">
-                <span class="text-sm font-semibold text-brand-400 uppercase tracking-widest">Le Match</span>
-                <h2 class="text-3xl md:text-4xl font-extrabold mt-3 text-white">Pourquoi notre solution est <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-400">incomparable</span>
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-500"></span>
+                    </span>
+                    Le Match
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight">
+                    Pourquoi notre solution est <br class="hidden md:block">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-400">incomparable</span>
                 </h2>
             </div>
 
@@ -1296,128 +1298,132 @@
     </section>
 
     <!-- ==================== TÉMOIGNAGES ==================== -->
-    <section class="py-20 relative">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center mb-14 fade-in">
-                <span class="text-sm font-semibold text-brand-600 uppercase tracking-widest">Témoignages</span>
-                <h2 class="text-3xl font-extrabold mt-3 mb-4">Ils ont arrêté de <span class="text-brand-600">postuler
-                        manuellement</span>.</h2>
+    <section class="py-20 md:py-28 relative overflow-hidden bg-slate-50">
+        <!-- Decoration -->
+        <div class="absolute inset-0 pointer-events-none">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-100 rounded-full blur-[150px] opacity-40"></div>
+        </div>
 
-                <!-- Mobile Swipe Hint -->
-                <div
-                    class="md:hidden flex items-center justify-center gap-2 text-gray-500 text-xs font-medium bg-gray-100 w-fit mx-auto px-4 py-1.5 rounded-full mt-2">
-                    <i class="fa-solid fa-hand-pointer text-brand-500 animate-pulse"></i>
-                    <i class="fa-solid fa-arrows-left-right text-gray-400"></i>
-                    Balayez pour voir plus
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16 fade-in">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-500"></span>
+                    </span>
+                    Avis Vérifiés
                 </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-dark-900 tracking-tight">
+                    Ils ont <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-emerald-500">hacké</span> le système.
+                </h2>
+                <p class="text-gray-500 max-w-2xl mx-auto text-lg">Ne nous croyez pas sur parole. Écoutez ceux qui reçoivent des invitations à des entretiens chaque matin.</p>
             </div>
 
-            <div class="flex overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-3 gap-4 md:gap-6 pb-8 -mx-6 px-6 md:mx-0 md:px-0 scroll-smooth"
-                style="scrollbar-width: none;">
-                <!-- Video Testimonial 1 -->
-                <div
-                    class="w-[75vw] sm:w-[350px] shrink-0 snap-start md:w-auto bg-white p-4 rounded-2xl shadow-lg border border-gray-100 fade-in flex flex-col group hover:-translate-y-1 transition-transform">
-                    <div
-                        class="relative w-full aspect-[9/16] rounded-xl overflow-hidden mb-4 bg-dark-900 flex items-center justify-center shadow-inner cursor-pointer">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent opacity-80 z-10">
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                            alt="Video thumbnail"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
-
-                        <div
-                            class="w-16 h-16 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center z-20 border border-white/50 group-hover:bg-brand-500/80 group-hover:border-brand-400 transition-colors shadow-[0_0_30px_rgba(0,0,0,0.3)]">
-                            <i class="fa-solid fa-play text-2xl text-white ml-1"></i>
-                        </div>
-
-                        <div
-                            class="absolute top-3 left-3 bg-white/95 backdrop-blur-md text-dark-900 text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1.5 z-20 border border-gray-100">
-                            <div
-                                class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.8)]">
-                            </div> CDI Signé
-                        </div>
+            <!-- Bento Grid Layout for Reviews -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 fade-in">
+                
+                <!-- Review 1 (Featured, span 2 on lg) -->
+                <div class="lg:col-span-2 bg-white/80 backdrop-blur-xl p-8 md:p-10 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-brand-400 to-emerald-400 opacity-90"></div>
+                    <i class="fa-solid fa-quote-right absolute -top-4 -right-2 text-8xl text-gray-50 group-hover:text-brand-50 transition-colors duration-500 -rotate-12"></i>
+                    
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-6">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="px-2 pb-2">
-                        <div class="flex text-amber-400 text-sm mb-2 gap-1">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                    <p class="text-xl md:text-2xl text-dark-900 font-medium leading-relaxed mb-8 relative z-10">
+                        "Un gain de temps incroyable ! L'IA a postulé à 150 offres pendant que je dormais. Résultat : 3 entretiens décrochés en une semaine. Je n'en reviens toujours pas de l'efficacité du système."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-14 h-14 rounded-full bg-gradient-to-br from-brand-100 to-brand-200 flex items-center justify-center text-brand-700 font-bold text-xl border border-brand-300 shadow-inner">
+                            YB
                         </div>
-                        <h4 class="font-bold text-dark-900 text-lg">Yassine B.</h4>
-                        <p class="text-sm text-gray-500 font-medium">Data Analyst chez Capgemini</p>
+                        <div>
+                            <h4 class="font-bold text-dark-900 text-lg">Youssef B.</h4>
+                            <p class="text-sm text-gray-500 flex items-center gap-2"><i class="fa-solid fa-briefcase text-brand-400"></i> Développeur Full-Stack</p>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Video Testimonial 2 -->
-                <div class="w-[75vw] sm:w-[350px] shrink-0 snap-start md:w-auto bg-white p-4 rounded-2xl shadow-lg border border-gray-100 fade-in flex flex-col group hover:-translate-y-1 transition-transform"
-                    style="transition-delay: 100ms;">
-                    <div
-                        class="relative w-full aspect-[9/16] rounded-xl overflow-hidden mb-4 bg-dark-900 flex items-center justify-center shadow-inner cursor-pointer">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent opacity-80 z-10">
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                            alt="Video thumbnail"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
-
-                        <div
-                            class="w-16 h-16 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center z-20 border border-white/50 group-hover:bg-brand-500/80 group-hover:border-brand-400 transition-colors shadow-[0_0_30px_rgba(0,0,0,0.3)]">
-                            <i class="fa-solid fa-play text-2xl text-white ml-1"></i>
-                        </div>
-
-                        <div
-                            class="absolute top-3 left-3 bg-white/95 backdrop-blur-md text-dark-900 text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1.5 z-20 border border-gray-100">
-                            <div
-                                class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.8)]">
-                            </div> CDI Signé
-                        </div>
+                <!-- Review 2 -->
+                <div class="bg-gradient-to-br from-dark-900 to-[#111827] p-8 md:p-10 rounded-[2rem] shadow-lg border border-white/10 hover:-translate-y-1 hover:shadow-2xl hover:shadow-emerald-500/20 transition-all duration-300 relative overflow-hidden text-white group">
+                    <div class="absolute -top-10 -right-10 w-40 h-40 bg-emerald-500/20 rounded-full blur-[40px] group-hover:bg-emerald-500/30 transition-colors duration-500"></div>
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-6 relative z-10">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="px-2 pb-2">
-                        <div class="flex text-amber-400 text-sm mb-2 gap-1">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                    <p class="text-base md:text-lg text-gray-300 leading-relaxed mb-8 relative z-10 font-medium">
+                        "I was highly skeptical at first. But the email personalization is mind-blowing. Recruiters genuinely think I took the time to analyze their company manually."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto relative z-10">
+                        <div class="w-12 h-12 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-400 font-bold text-lg border border-emerald-500/30">
+                            YE
                         </div>
-                        <h4 class="font-bold text-dark-900 text-lg">Sara M.</h4>
-                        <p class="text-sm text-gray-500 font-medium">Marketing Manager</p>
+                        <div>
+                            <h4 class="font-bold text-white">Yasmine E.</h4>
+                            <p class="text-xs text-gray-400 uppercase tracking-wider mt-0.5">IT Project Manager</p>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Video Testimonial 3 -->
-                <div class="w-[75vw] sm:w-[350px] shrink-0 snap-start md:w-auto bg-white p-4 rounded-2xl shadow-lg border border-gray-100 fade-in flex flex-col group hover:-translate-y-1 transition-transform"
-                    style="transition-delay: 200ms;">
-                    <div
-                        class="relative w-full aspect-[9/16] rounded-xl overflow-hidden mb-4 bg-dark-900 flex items-center justify-center shadow-inner cursor-pointer">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent opacity-80 z-10">
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                            alt="Video thumbnail"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
-
-                        <div
-                            class="w-16 h-16 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center z-20 border border-white/50 group-hover:bg-brand-500/80 group-hover:border-brand-400 transition-colors shadow-[0_0_30px_rgba(0,0,0,0.3)]">
-                            <i class="fa-solid fa-play text-2xl text-white ml-1"></i>
-                        </div>
-
-                        <div
-                            class="absolute top-3 left-3 bg-white/95 backdrop-blur-md text-dark-900 text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1.5 z-20 border border-gray-100">
-                            <div
-                                class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.8)]">
-                            </div> CDI Signé
-                        </div>
+                <!-- Review 3 -->
+                <div class="bg-white/80 backdrop-blur-xl p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative group">
+                    <div class="absolute bottom-0 right-0 w-24 h-24 bg-blue-50 rounded-tl-full -z-10 group-hover:scale-125 transition-transform duration-500"></div>
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-5">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="px-2 pb-2">
-                        <div class="flex text-amber-400 text-sm mb-2 gap-1">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                    <p class="text-gray-600 leading-relaxed mb-8">
+                        "Le workflow sur Make est d'une fluidité parfaite. L'installation m'a pris 15 minutes top chrono. Tout tourne en arrière-plan sans bug."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto border-t border-gray-100 pt-5">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold border border-blue-200">
+                            ST
                         </div>
-                        <h4 class="font-bold text-dark-900 text-lg">Amine K.</h4>
-                        <p class="text-sm text-gray-500 font-medium">Développeur Full-Stack</p>
+                        <div>
+                            <h4 class="font-bold text-dark-900">Salma T.</h4>
+                            <p class="text-xs text-gray-500">UX/UI Designer</p>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Review 4 -->
+                <div class="bg-white/80 backdrop-blur-xl p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-purple-50 rounded-bl-full -z-10 group-hover:scale-125 transition-transform duration-500"></div>
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-5">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-8">
+                        "No more job application stress! I am now solely focused on preparing for my interviews. This system is worth every penny."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto border-t border-gray-100 pt-5">
+                        <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold border border-purple-200">
+                            MK
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark-900">Mehdi K.</h4>
+                            <p class="text-xs text-gray-500">Cloud Engineer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="bg-white/80 backdrop-blur-xl p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative group overflow-hidden">
+                    <div class="absolute bottom-0 right-0 w-32 h-32 bg-amber-50 rounded-tl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-5">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-8 font-medium">
+                        "J'ai passé des mois à envoyer des CV dans le vide. Avec cet Agent, j'ai eu une réponse positive dès le 2ème jour. Rentabilisé instantanément."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto border-t border-gray-100 pt-5">
+                        <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 font-bold border border-amber-200">
+                            OD
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark-900">Omar D.</h4>
+                            <p class="text-xs text-gray-500">Data Scientist</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -1434,10 +1440,15 @@
 
         <div class="max-w-3xl mx-auto px-6 relative z-10">
             <div class="text-center mb-12 fade-in">
-                <span
-                    class="text-sm font-semibold text-brand-600 uppercase tracking-widest bg-brand-50 px-4 py-1.5 rounded-full inline-block mb-3">FAQ</span>
-                <h2 class="text-3xl md:text-4xl font-extrabold text-dark-900">Vos <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-emerald-500">Questions</span>
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-sm font-semibold mb-6">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-500"></span>
+                    </span>
+                    FAQ
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-dark-900 tracking-tight">
+                    Vos <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-emerald-500">Questions</span>
                 </h2>
                 <p class="text-gray-500 mt-3 text-sm md:text-base">Tout ce que vous devez savoir avant de lancer votre
                     Agent IA.</p>
@@ -1607,7 +1618,7 @@
                     leur succès</span>
             </div>
 
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
                 Ne laissez pas un autre <br class="hidden md:block">
                 prendre <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-400">votre
                     poste demain.</span>
@@ -1629,7 +1640,7 @@
                 </a>
                 <div class="text-gray-500 text-sm flex items-center justify-center gap-2 mt-3">
                     <i class="fa-solid fa-shield-halved text-brand-500"></i>
-                    <span>Paiement unique de 299 DH. Accès immédiat.</span>
+                    <span>Paiement unique de 100 MAD. Accès immédiat.</span>
                 </div>
             </div>
         </div>
